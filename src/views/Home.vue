@@ -46,10 +46,10 @@
         </template>
 
         <ul>
-          <li>Mini Tournaments in all kinds of games (suggest some in the form)</li>
+          <li>Mini Tournaments in all kinds of games (suggest some when you signup)</li>
           <li>Playing VR Games</li>
           <li>Drinking your weight in energy drinks</li>
-          <li>Pickup some League of Legends Realms swag</li>
+          <li>Pick up some League of Legends Realms swag</li>
         </ul>
       </InfoPanel>
     </div>
