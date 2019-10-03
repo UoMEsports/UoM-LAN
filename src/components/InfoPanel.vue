@@ -24,6 +24,10 @@ export default {
 
   position: relative;
 
+  @media only screen and (max-width: 470px) {
+    height: auto;
+  }
+
   .title {
     color: black;
 
