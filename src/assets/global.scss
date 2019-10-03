@@ -1,0 +1,23 @@
+
+$primary: #ffc80a;
+$secondary: #6A2C91;
+
+$background: #3b0a47;
+
+.uom-font {
+	font-family: vox, sans-serif !important;
+	font-style: normal;
+}
+
+a {
+	color: $primary;
+
+	transition: color .2s;
+
+	&:visited {
+		color: $primary;
+	}
+	&:hover {
+		color: $secondary;
+	}
+}
