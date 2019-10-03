@@ -6,10 +6,6 @@
       BUY TICKETS
     </CustomButton>
 
-    <CustomButton @click="goToForm()">
-      RESERVE SEAT
-    </CustomButton>
-
     <div class="content">
       <InfoPanel>
         <template v-slot:title>
@@ -23,9 +19,7 @@
           How do I sign up?
         </template>
 
-        Tickets are sold through the SU website at the link above. Once you have purchased your ticket, return here and fill in the signup form.<br><br>
-
-        Just tell us the email you used and if you would like to sit near any of your friends and we'll email you to confirm your seat!
+        Tickets are sold through the SU website at the link above. You'll be asked questions like do you want to borrow a laptop, do you need PC pickup etc. When you're done we'll email you to confirm your seating position and laptop hire status.<br><br>
       </InfoPanel>
       <InfoPanel>
         <template v-slot:title>
@@ -41,9 +35,8 @@
 
         Everyone needs to bring:<br>
         <ul>
-          <li>Food/money for food</li>
-          <li></li>
-          <li>Food/money for food</li>
+          <li>Food or money for food</li>
+          <li>Ethernet cables (if you have any)</li>
           <li>Your society wristband!</li>
         </ul>
       </InfoPanel>
@@ -53,9 +46,10 @@
         </template>
 
         <ul>
-          <li>Mini Tournaments</li>
-          <li>VR Games</li>
-          <li></li>
+          <li>Mini Tournaments in all kinds of games (suggest some in the form)</li>
+          <li>Playing VR Games</li>
+          <li>Drinking your weight in energy drinks</li>
+          <li>Pickup some League of Legends Realms swag</li>
         </ul>
       </InfoPanel>
     </div>
@@ -70,7 +64,7 @@ export default {
   name: 'home',
   methods: {
     goToSU () {
-      window.open('https://manchesterstudentsunion.com/groups/esports-society', '_blank');
+      window.open('https://manchesterstudentsunion.com/groups/esports-society/events/freshers-lan-4c77/buy_ticket', '_blank');
     }
   },
   components: {
@@ -82,9 +76,12 @@ export default {
 
 <style lang="scss" scoped>
 .header {
+  width: 800px;
   display: block;
   max-width: 90%;
-  margin: 60px auto;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 25px;
 }
 
 .content {

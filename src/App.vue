@@ -28,7 +28,7 @@ body {
     background: url('assets/bg.png') 0 0 repeat;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    opacity: 0.5;
+    opacity: 0.4;
   }
 }
 </style>
