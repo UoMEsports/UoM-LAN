@@ -54,6 +54,14 @@
           <li>Pick up some League of Legends Realms swag</li>
         </ul>
       </InfoPanel>
+      <InfoPanel>
+        <template v-slot:title>
+          What's the LAN Van?
+        </template>
+
+        Want to bring your own PC but can't bear the thought of taking it on the magic bus? Fear no more. You can request pickup and drop off of your stuff when you buy your ticket.<br><br>
+        Pickup will be Friday evening, dropoff will be Saturday night and Sunday morning.
+      </InfoPanel>
 
       <h1 class="questions uom-font">Any questions, please use the #lan-discussion channel in Discord or PM @Dan Shields#4476</h1>
     </div>
