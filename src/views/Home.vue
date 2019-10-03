@@ -2,6 +2,8 @@
   <div class="home">
     <img src="@/assets/header.png" class="header">
 
+    <Countdown :date="'October 19, 2019 10:00'"/>
+
     <CustomButton class="su-button" @click="goToSU()">
       BUY TICKETS
     </CustomButton>
@@ -59,6 +61,7 @@
 <script>
 import CustomButton from '@/components/CustomButton.vue';
 import InfoPanel from '@/components/InfoPanel.vue';
+import Countdown from '@/components/Countdown.vue';
 
 export default {
   name: 'home',
@@ -69,7 +72,8 @@ export default {
   },
   components: {
     CustomButton,
-    InfoPanel
+    InfoPanel,
+    Countdown
   }
 };
 </script>
@@ -80,7 +84,7 @@ export default {
   display: block;
   max-width: 90%;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   margin-top: 25px;
 }
 
