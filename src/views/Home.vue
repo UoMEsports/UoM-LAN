@@ -54,6 +54,8 @@
           <li>Pick up some League of Legends Realms swag</li>
         </ul>
       </InfoPanel>
+
+      <h1 class="questions uom-font">Any questions, please use the #lan-discussion channel in Discord or PM @Dan Shields#4476</h1>
     </div>
   </div>
 </template>
@@ -97,9 +99,10 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
 
-.su-button {
-  margin-bottom: 20px;
+  .questions {
+    font-size: 55px;
+    text-align: center;
+  }
 }
 </style>
